@@ -4,7 +4,7 @@ def get_diffs(m):
 
 
 def sliding_window(size, m):
-    return [sum(m[i:i+size]) for i in range(0, len(m) - size + 1)]
+    return [sum(m[i:i + size]) for i in range(0, len(m) - size + 1)]
 
 
 def main():
