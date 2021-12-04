@@ -23,7 +23,7 @@ def main():
         bit_sum = sum(int(number[i]) for number in report)
         gamma += 2 ** (n_bits - i - 1) * int(bit_sum > len(report) / 2)
 
-    epsilon = ~gamma & (2 ** n_bits - 1)
+    epsilon = ~ gamma & (2 ** n_bits - 1)
 
     print(f'Power consumption (1): { gamma * epsilon }')
 
