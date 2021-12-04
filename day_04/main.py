@@ -2,7 +2,7 @@ class Board:
     def __init__(self, board):
         self.done = False
         self._board = board
-        self._marks = [[0]*5 for _ in range(5)]
+        self._marks = [[0] * 5 for _ in range(5)]
 
     def round(self, number):
         for i, r in enumerate(self._board):
