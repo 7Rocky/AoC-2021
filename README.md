@@ -20,7 +20,7 @@ make test
 | [Day 01](day_01) | Sonar Sweep       | :star:                         | :shrug:          |
 | [Day 02](day_02) | Dive!             | :star:                         | :shrug:          |
 | [Day 03](day_03) | Binary Diagnostic | :star::star:                   | :raised_eyebrow: |
-| [Day 04](day_04) |                   |                                |                  |
+| [Day 04](day_04) | Giant Squid       | :star::star::star:             | :thinking:       |
 | [Day 05](day_05) |                   |                                |                  |
 | [Day 06](day_06) |                   |                                |                  |
 | [Day 07](day_07) |                   |                                |                  |
