@@ -18,8 +18,7 @@ def main():
     hxd = int(position.real * position.imag)
     print(f'Horizontal position times depth (1): { hxd }')
 
-    position = 0 + 0j
-    aim = 0
+    position, aim = 0 + 0j, 0
 
     for instr in instructions:
         if instr.startswith(FORWARD):
