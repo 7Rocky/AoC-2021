@@ -32,26 +32,27 @@ class Board:
 
 
 def main():
+    boards = []
+
     with open('input.txt') as f:
         numbers = map(int, f.readline().split(','))
-        boards = []
 
         while f.readline() == '\n':
             b = Board([list(map(int, f.readline().split())) for _ in range(5)])
             boards.append(b)
 
-        results = []
+    results = []
 
-        for number in numbers:
-            for b in boards:
-                b.round(number)
+    for number in numbers:
+        for b in boards:
+            b.round(number)
 
-                if (res := b.check()) != -1 and not b.done:
-                    results.append(res * number)
-                    b.done = True
+            if (res := b.check()) != -1 and not b.done:
+                results.append(res * number)
+                b.done = True
 
-        print(f'First board to win (1): { results[0] }')
-        print(f'Last board to win (2): { results[-1] }')
+    print(f'First board to win (1): { results[0] }')
+    print(f'Last board to win (2): { results[-1] }')
 
 
 if __name__ == '__main__':
