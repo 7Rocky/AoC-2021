@@ -22,7 +22,7 @@ make test
 | [Day 03](day_03) | Binary Diagnostic    | :star::star:                   | :raised_eyebrow: |
 | [Day 04](day_04) | Giant Squid          | :star::star::star:             | :thinking:       |
 | [Day 05](day_05) | Hydrothermal Venture | :star::star::star:             | :raised_eyebrow: |
-| [Day 06](day_06) |                      |                                |                  |
+| [Day 06](day_06) | Lanternfish          | :star::star::star::star:       | :exploding_head: |
 | [Day 07](day_07) |                      |                                |                  |
 | [Day 08](day_08) |                      |                                |                  |
 | [Day 09](day_09) |                      |                                |                  |
