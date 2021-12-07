@@ -1,4 +1,4 @@
-# Day 6: Lanternfish
+# Day 7: The Treachery of Whales
 
 ### --- Part One ---
 
