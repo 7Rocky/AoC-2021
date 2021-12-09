@@ -25,7 +25,7 @@ make test
 | [Day 06](day_06) | Lanternfish             | :star::star::star::star:       | :exploding_head: |
 | [Day 07](day_07) | The Treachery of Whales | :star::star:                   | :star_struck:    |
 | [Day 08](day_08) | Seven Segment Search    | :star::star::star:             | :blue_heart:     |
-| [Day 09](day_09) |                         |                                |                  |
+| [Day 09](day_09) | Smoke Basin             | :star::star::star:             | :blue_heart:     |
 | [Day 10](day_10) |                         |                                |                  |
 | [Day 11](day_11) |                         |                                |                  |
 | [Day 12](day_12) |                         |                                |                  |
