@@ -1,10 +1,7 @@
 from functools import reduce
 
 
-points = [[9]]
-
-
-def bfs(root):
+def bfs(root, points):
     queue = [root]
     visited_states = {root}
     basin_size = 1
@@ -25,6 +22,8 @@ def bfs(root):
 
 
 def main():
+    points = [[9]]
+
     with open('input.txt') as f:
         for line in f.readlines():
             points.append([9] + list(map(int, list(line.strip()))) + [9])
@@ -43,7 +42,7 @@ def main():
 
             if all(map(lambda p, i=i, j=j: points[j][i] < p, ps)):
                 low_points.append(points[j][i])
-                basin_sizes.append(bfs((i, j)))
+                basin_sizes.append(bfs((i, j), points))
 
     basin_sizes.sort()
     basins_prod = reduce(lambda x, y: x * y, basin_sizes[-3:], 1)
