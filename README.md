@@ -27,7 +27,7 @@ make test
 | [Day 08](day_08) | Seven Segment Search    | :star::star::star:             | :blue_heart:     |
 | [Day 09](day_09) | Smoke Basin             | :star::star::star:             | :blue_heart:     |
 | [Day 10](day_10) | Syntax Score            | :star::star:                   | :star_struck:    |
-| [Day 11](day_11) |                         |                                |                  |
+| [Day 11](day_11) | Dumbo Octopus           | :star::star:                   | :shrug:          |
 | [Day 12](day_12) |                         |                                |                  |
 | [Day 13](day_13) |                         |                                |                  |
 | [Day 14](day_14) |                         |                                |                  |
