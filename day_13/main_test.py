@@ -13,7 +13,7 @@ class TestMain(unittest.TestCase):
         main()
 
         want = 'Number of points after first fold (1): 735\n' + \
-               'Hidden message (2):\n' + \
+               'Hidden message (2): \n' + \
                '#..#.####.###..####.#..#..##..#..#.####\n' + \
                '#..#.#....#..#....#.#.#..#..#.#..#....#\n' + \
                '#..#.###..#..#...#..##...#..#.#..#...#.\n' + \
