@@ -30,7 +30,7 @@ make test
 | [Day 11](day_11) | Dumbo Octopus           | :star::star:                   | :shrug:          |
 | [Day 12](day_12) | Passage Pathing         | :star::star::star:             | :blue_heart:     |
 | [Day 13](day_13) | Transparent Origami     | :star::star:                   | :star_struck:    |
-| [Day 14](day_14) |                         |                                |                  |
+| [Day 14](day_14) | Extended Polymerization | :star::star::star::star:       | :exploding_head: |
 | [Day 15](day_15) |                         |                                |                  |
 | [Day 16](day_16) |                         |                                |                  |
 | [Day 17](day_17) |                         |                                |                  |
