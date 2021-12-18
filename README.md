@@ -32,8 +32,8 @@ make test
 | [Day 13](day_13) | Transparent Origami     | :star::star:                   | :star_struck:    |
 | [Day 14](day_14) | Extended Polymerization | :star::star::star::star:       | :exploding_head: |
 | [Day 15](day_15) | Chiton                  | :star::star::star:             | :star_struck:    |
-| [Day 16](day_16) |                         |                                |                  |
-| [Day 17](day_17) |                         |                                |                  |
+| [Day 16](day_16) | Packet Decoder          | :star::star::star::star:       | :rage:           |
+| [Day 17](day_17) | Trick Shot              | :star::star::star::star:       | :blue_heart:     |
 | [Day 18](day_18) |                         |                                |                  |
 | [Day 19](day_19) |                         |                                |                  |
 | [Day 20](day_20) |                         |                                |                  |
