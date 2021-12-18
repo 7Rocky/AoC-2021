@@ -14,17 +14,17 @@ def y_t(t, v0_y):
 
 
 def get_min_v0_x(x1, x2):
-    min_v0_x, x = math.inf, 1
+    min_v0_x, v0_x = math.inf, 1
 
     while True:
-        arith_prog = x * (x + 1) // 2
+        x = v0_x * (v0_x + 1) // 2
 
-        if x1 <= arith_prog <= x2:
-            min_v0_x = min([x, min_v0_x])
-        if arith_prog > x2:
+        if x1 <= x <= x2:
+            min_v0_x = min([v0_x, min_v0_x])
+        if x > x2:
             break
 
-        x += 1
+        v0_x += 1
 
     return min_v0_x
 
