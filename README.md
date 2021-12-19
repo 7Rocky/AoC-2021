@@ -34,7 +34,7 @@ make test
 | [Day 15](day_15) | Chiton                  | :star::star::star:             | :star_struck:    |
 | [Day 16](day_16) | Packet Decoder          | :star::star::star::star:       | :rage:           |
 | [Day 17](day_17) | Trick Shot              | :star::star::star::star:       | :blue_heart:     |
-| [Day 18](day_18) |                         |                                |                  |
+| [Day 18](day_18) | Snailfish               | :star::star::star::star:       | :exploding_head: |
 | [Day 19](day_19) |                         |                                |                  |
 | [Day 20](day_20) |                         |                                |                  |
 | [Day 21](day_21) |                         |                                |                  |
