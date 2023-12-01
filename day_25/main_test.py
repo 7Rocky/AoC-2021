@@ -12,8 +12,7 @@ class TestMain(unittest.TestCase):
 
         main()
 
-        want = 'Steps to finish (1): 353\n' + \
-               'Steps to finish (2): 353\n'
+        want = 'Steps to finish (1): 353\n'
 
         sys.stdout = sys.__stdout__
         self.assertEqual(want, rescued_stdout.getvalue())
