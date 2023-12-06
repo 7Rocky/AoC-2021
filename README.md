@@ -35,10 +35,10 @@ make test
 | [Day 16](day_16) | Packet Decoder          | :star::star::star::star:       | :rage:           |
 | [Day 17](day_17) | Trick Shot              | :star::star::star::star:       | :blue_heart:     |
 | [Day 18](day_18) | Snailfish               | :star::star::star::star:       | :exploding_head: |
-| Day 19           | Beacon Scanner          |                                |                  |
+| [Day 19](day_19) | Beacon Scanner          | :star::star::star::star::star: | :exploding_head: |
 | [Day 20](day_20) | Trench Map              | :star::star::star:             | :shrug:          |
 | [Day 21](day_21) | Dirac Dice              | :star::star::star::star::star: | :rage:           |
-| Day 22           | Reactor Reboot          |                                |                  |
+| [Day 22](day_22) | Reactor Reboot          | :star::star::star::star:       | :blue_heart:     |
 | Day 23           | Amphipod                |                                |                  |
 | [Day 24](day_24) | Arithmetic Logic Unit   | :star::star::star::star::star: | :blue_heart:     |
 | [Day 25](day_25) | Sea Cucumber            | :star::star::star:             | :raised_eyebrow: |
