@@ -39,6 +39,6 @@ make test
 | [Day 20](day_20) | Trench Map              | :star::star::star:             | :shrug:          |
 | [Day 21](day_21) | Dirac Dice              | :star::star::star::star::star: | :rage:           |
 | [Day 22](day_22) | Reactor Reboot          | :star::star::star::star:       | :blue_heart:     |
-| Day 23           | Amphipod                |                                |                  |
+| [Day 23](day_23) | Amphipod                | :star::star::star::star::star: | :rage:           |
 | [Day 24](day_24) | Arithmetic Logic Unit   | :star::star::star::star::star: | :blue_heart:     |
 | [Day 25](day_25) | Sea Cucumber            | :star::star::star:             | :raised_eyebrow: |
