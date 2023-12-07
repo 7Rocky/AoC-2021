@@ -11,7 +11,7 @@ def monad(input_numbers):
         x = z % 26
         z //= 26 if i in divs else 1
         x += adds_x[i]
-        x = int(int(x == number) == 0)
+        x = int(x != number)
         z *= 25 * x + 1
         z += (number + adds_y[i]) * x
 
@@ -47,22 +47,12 @@ def main():
             if i % 18 == 15:
                 adds_y.append(int(line[6:]))
 
-    products = product(range(9, -1, -1), range(9, -1, -1), range(9, -1, -1), range(
-        9, -1, -1), range(9, -1, -1), range(9, -1, -1), range(9, -1, -1))
-
-    for p in products:
-        number = make_number(p)
-
+    for number in map(make_number, product(*[range(9, -1, -1) for _ in range(7)])):
         if all(map(lambda n: 0 < n < 10, number)) and monad(number) == 0:
             print('Greatest MONAD (1):', ''.join(map(str, number)))
             break
 
-    products = product(range(1, 10), range(1, 10), range(1, 10), range(
-        1, 10), range(1, 10), range(1, 10), range(1, 10))
-
-    for p in products:
-        number = make_number(p)
-
+    for number in map(make_number, product(*[range(1, 10) for _ in range(7)])):
         if all(map(lambda n: 0 < n < 10, number)) and monad(number) == 0:
             print('Smallest MONAD (2):', ''.join(map(str, number)))
             break
